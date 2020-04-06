@@ -475,6 +475,7 @@ declare namespace NodeJS {
         title: string;
         arch: string;
         platform: string;
+        noDeprecation: boolean;
         mainModule?: NodeModule;
         memoryUsage(): MemoryUsage;
         nextTick(callback: Function): void;

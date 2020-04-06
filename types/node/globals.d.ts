@@ -830,6 +830,7 @@ declare namespace NodeJS {
         title: string;
         arch: string;
         platform: Platform;
+        noDeprecation: boolean;
         mainModule?: Module;
         memoryUsage(): MemoryUsage;
         cpuUsage(previousValue?: CpuUsage): CpuUsage;
